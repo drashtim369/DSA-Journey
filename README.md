@@ -1,30 +1,3 @@
-# DSA Journey 🚀
-
-Welcome to my **DSA Journey** repository! This repo contains all my learning and practice from Day 1 onwards, organized by topics and difficulty.
-
----
-
-## 📚 Folder Structure
-
-```
-
-DSA-Journey/
-├─ Arrays/
-│  └─ arrays.cpp
-├─ Patterns/
-│  ├─ patterns.cpp
-│  └─ patterns.pdf
-├─ Recursion/
-│  └─ recursion\_basics.cpp
-├─ NumberTheory/
-│  └─ number\_theory\_basics.cpp
-├─ STL/
-│  └─ stl\_basics.cpp
-├─ Complexity/
-│  └─ time\_complexity.pdf
-└─ README.md
-
-```
 
 ---
 
@@ -63,5 +36,10 @@ DSA-Journey/
 
 This repo is primarily for personal learning, but pull requests for **bug fixes, optimizations, or additional explanations** are welcome.  
 
+---
 
+## 🏷 Badges (Optional)
 
+![GitHub last commit](https://img.shields.io/github/last-commit/drashtim369/DSA-Journey?color=green)
+![GitHub repo size](https://img.shields.io/github/repo-size/drashtim369/DSA-Journey)
+![GitHub stars](https://img.shields.io/github/stars/drashtim369/DSA-Journey?style=social)
