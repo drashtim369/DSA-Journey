@@ -22,9 +22,6 @@ DSA-Journey/
 │ └─ time_complexity.pdf
 └─ README.md
 
-yaml
-Copy
-Edit
 
 ---
 
@@ -70,3 +67,4 @@ This repo is primarily for personal learning, but pull requests for **bug fixes,
 ![GitHub last commit](https://img.shields.io/github/last-commit/drashtim369/DSA-Journey?color=green)
 ![GitHub repo size](https://img.shields.io/github/repo-size/drashtim369/DSA-Journey)
 ![GitHub stars](https://img.shields.io/github/stars/drashtim369/DSA-Journey?style=social)
+
