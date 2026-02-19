@@ -68,3 +68,24 @@ This repo is primarily for personal learning, but pull requests for **bug fixes,
 ![GitHub repo size](https://img.shields.io/github/repo-size/drashtim369/DSA-Journey)
 ![GitHub stars](https://img.shields.io/github/stars/drashtim369/DSA-Journey?style=social)
 
+
+---
+
+## 🧪 Arrays Revision Compiler (Striver A2Z - 40 Questions)
+
+I added a one-page practice compiler for **arrays easy + medium + hard** with 40 curated questions.
+
+**Path:** `Arrays/revision-compiler/index.html`
+
+### Features
+- Question navigator with difficulty filters.
+- Built-in C++ editor with syntax highlighting, autocomplete, and snippet support.
+- Run/Submit directly from same page (uses Piston API for C++ execution).
+- Auto-check against expected output and one-click next question flow.
+
+### Run locally
+```bash
+cd Arrays/revision-compiler
+python3 -m http.server 4173
+```
+Then open `http://localhost:4173`.

@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Striver A2Z Arrays Revision Compiler</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Striver A2Z Arrays Revision Compiler (40 Questions)</h1>
+    <p>One-page practice flow: solve → submit → verify → next.</p>
+  </header>
+
+  <main>
+    <aside>
+      <div class="filters">
+        <button data-filter="All" class="active">All</button>
+        <button data-filter="Easy">Easy</button>
+        <button data-filter="Medium">Medium</button>
+        <button data-filter="Hard">Hard</button>
+      </div>
+      <ol id="questionList"></ol>
+    </aside>
+
+    <section class="workspace">
+      <div class="question-meta">
+        <h2 id="qTitle"></h2>
+        <span id="qDifficulty"></span>
+        <a id="qLink" href="#" target="_blank" rel="noreferrer">Open original problem</a>
+      </div>
+      <p id="qPrompt"></p>
+      <p><strong>Input format:</strong> <code id="qInputFormat"></code></p>
+
+      <div class="io-grid">
+        <div>
+          <label>Sample Input</label>
+          <textarea id="sampleInput" readonly></textarea>
+        </div>
+        <div>
+          <label>Expected Output</label>
+          <textarea id="expectedOutput" readonly></textarea>
+        </div>
+      </div>
+
+      <div id="editor"></div>
+
+      <div class="actions">
+        <button id="runBtn">Run Code</button>
+        <button id="submitBtn">Submit</button>
+        <button id="resetBtn">Reset Starter</button>
+        <button id="nextBtn">Next Question</button>
+      </div>
+
+      <div class="io-grid">
+        <div>
+          <label>Your Output</label>
+          <textarea id="yourOutput" readonly></textarea>
+        </div>
+        <div>
+          <label>Status</label>
+          <textarea id="statusBox" readonly></textarea>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/monaco-editor@0.45.0/min/vs/loader.min.js"></script>
+  <script src="questions.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
